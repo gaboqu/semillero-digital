@@ -697,3 +697,24 @@ footer ul li a{
   height: 100%;
   object-fit: cover;
 }
+
+/* CONTACTO */
+
+.caja{
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  align-content: center;
+  justify-content: left;
+  padding-left: 30px;
+  align-items: center;
+
+}
+
+
+  /* CONTACTO */
+
+  .row g-3{
+  margin: 100px;
+
+  }

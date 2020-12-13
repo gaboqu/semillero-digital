@@ -708,8 +708,19 @@ footer ul li a{
   justify-content: left;
   padding-left: 30px;
   align-items: center;
+ } 
 
-}
+  #cont {
+    font-family: Helvetica LT;
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.8rem;
+    letter-spacing: -0.015em;
+    text-align: left;
+  };
+
+
 
 
   /* CONTACTO */

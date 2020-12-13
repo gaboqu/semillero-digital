@@ -140,7 +140,7 @@ header ul li a {
 }
 
 .borde3 {
-  height: 180px;
+  height: 220px;
   width: 2px;
   margin-left: 88px;
   border: 2px dashed #26ABFF;
@@ -152,6 +152,39 @@ header ul li a {
   margin-left: 80px;
   border-radius: 50%;
   background: #26ABFF;
+}
+
+h2 {
+  font-family: Helvetica LT;
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.015em;
+  text-align: left;
+
+}
+
+.punteada {
+  width: 20%;
+}
+
+.tres_items {
+  padding-right: 200px;
+  text-align:left ;
+}
+
+.adquiri {
+  padding-top: 78px;
+}
+
+.perfiles {
+  padding-top: 158px;
+}
+
+.trabajo {
+  padding-top: 108px;
+
 }
 
 /*     FOOTER        */

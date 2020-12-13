@@ -4,7 +4,16 @@
     box-sizing: border-box;
   }
 
-  
+@font-face {
+  font-family: Helvetica\ LT;
+  src: url(../assets/fonts/Helvetica\ LT.ttf);
+}
+
+html {
+  font-family: Helvetica\ LT;
+  font-size: 62.5%;
+}
+ 
 li {
     list-style: none;
   }
@@ -37,6 +46,15 @@ header ul {
 
 header ul li {
     margin-right: 30px;
+    
+    font-weight: 900;
+    font size: 05rem;
+    
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #27aefd;
 }
 
 .logo {

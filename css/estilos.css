@@ -85,7 +85,14 @@ header ul li a {
 /*     SECTION       */
 
 .land {
-  height: 800px;
+  height: 1800px;
+  background: url("../imagenes/elipse.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 100%;
+  /*height: 400px;
+  object-fit: contain;*/
 }
 
 /*     FOOTER        */

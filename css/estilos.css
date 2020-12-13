@@ -259,6 +259,39 @@ h2 {
   justify-content: center;
 }
 
+/*     SECTION  03     */
+
+.section03 {
+  background: #F7F7F7;
+
+}
+
+.explota {
+  height: 450px;
+  background: url("../imagenes/elipse-2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 50px;
+
+}
+
+.h2white {
+  font-family: Helvetica LT;
+font-size: 4.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: -0.015em;
+text-align: left;
+color:white;
+
+}
 
 
 /*     FOOTER        */
@@ -316,6 +349,22 @@ button {
   font-weight: 500;
   outline: none;
   color: #fff;
+  font-weight: 500;
+  font-size: 1.4rem;
+  width: 140px;
+  height: 38px ;
+  border: none;
+  transition: all 500ms ease;
+}
+
+.btn {
+  background-color: #ffffff ;
+  border-radius: 50px;
+  text-align: center;
+  position: relative;
+  font-weight: 500;
+  outline: none;
+  color: #267DB1;
   font-weight: 500;
   font-size: 1.4rem;
   width: 140px;

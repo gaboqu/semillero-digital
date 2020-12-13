@@ -67,6 +67,16 @@ nav {
   height: 400px;
   object-fit: contain;
 }
+
+.header_img5 {
+  background: url("../imagenes/semillero_blog.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+}
+
 .bajada {
     height: 100%;
     display: flex;
@@ -382,6 +392,7 @@ color: #767676;
   height: 38px ;
   border: none;
   transition: all 500ms ease;
+  text-decoration: none;
 }
 
 button {
@@ -605,4 +616,84 @@ footer ul li a{
 
 .padlef20 {
   padding-left: 10px;
+}
+
+
+/*      BLOG      */
+
+.blog_m1 {
+  width: 50%;
+  background-color: deeppink;
+  height: 300px;
+  padding-left: 45px;
+}
+
+.blog_m2 {
+  width: 50%;
+  background-color: forestgreen;
+  height: 300px;
+}
+
+.flex_blog {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.contenedor-foto {
+  width: 300px;
+    height: 300px;
+    
+
+}
+
+.img-blog {
+  object-fit: cover;
+}
+
+.nosotros {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.nosotros2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 80px;
+}
+
+.mitad {
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+}
+
+.mitad2 {
+  width: 100%;
+  margin: auto;
+  text-align: right;
+  padding: 20px;
+}
+
+.reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.line_h {
+  line-height: 0;
+}
+
+.resise {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

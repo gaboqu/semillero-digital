@@ -556,10 +556,27 @@ footer ul li a{
 
 .dv1 {
   padding-right: 30px;
+  border-left: #26ABFF solid 6px;
 
 }
 
 .dv2{
-  padding-left: 30px;
+  padding-left: 10px;
+  border-left: #A2DD1E solid 6px;
 
+}
+.dv3 {
+  padding-right: 30px;
+  border-left: #FFA400 solid 6px;
+
+}
+
+.dv4{
+  padding-left: 10px;
+  border-left: #26ABFF solid 6px;
+
+}
+
+.padlef20 {
+  padding-left: 10px;
 }

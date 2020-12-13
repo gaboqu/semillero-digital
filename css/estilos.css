@@ -18,6 +18,8 @@ li {
     list-style: none;
   }
 
+/*      HEADER        */
+
 nav {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -41,7 +43,13 @@ nav {
 }
 
 h1 {
-  font-size: 4rem;
+  font-family: Helvetica LT;
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4.8rem;
+  letter-spacing: -0.015em;
+  text-align: left;
 }
 
 .flex {
@@ -71,4 +79,115 @@ header ul li a {
 
 .logo {
     margin-left: 30px;
+}
+
+
+/*     SECTION       */
+
+.land {
+  height: 800px;
+}
+
+/*     FOOTER        */
+
+footer {
+  padding: 90px 75px 90px 75px;
+  background: #F7F7F7;
+
+}
+
+h3 {
+  font-family: Helvetica LT;
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.015em;
+  text-align: left;
+
+}
+
+h4 {
+font-family: Helvetica LT;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: #767676;
+}
+
+.boton {
+  background-color: #267DB1 ;
+  border-radius: 50px;
+  text-align: center;
+  position: relative;
+  font-weight: 500;
+  outline: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.4rem;
+  width: 160px;
+  height: 38px ;
+  border: none;
+  transition: all 500ms ease;
+
+  /*
+  background: #267DB1;
+  border-radius: 24px;
+  height: 52px;
+  width: 192px;
+  left: 0px;
+  top: 0px;
+  font-family: Helvetica LT;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+  outline: none;*/
+}
+
+.but {
+  /*position: absolute;*/
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #FFFFFF;
+  border: 1px solid #B2B2B2;
+  box-sizing: border-box;
+  border-radius: 8px;
+  height: 38px;
+  width: 280px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+}
+
+.padbot20 {
+  padding-bottom: 20px;
+}
+
+.padbot40 {
+  padding-bottom: 40px;
+}
+
+.padtop20 {
+  padding-top: 20px;
+}
+
+.padtop40 {
+  padding-top: 40px;
+}
+
+.line {
+  height: 2px;
+  background: #C4C4C4;
+  padding-right: 75px;
+  padding-left: 75px;
 }

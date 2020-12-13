@@ -486,6 +486,7 @@ footer ul li a{
   width: 100%;
   height: 100%;
   padding-left: 50px;
+  padding-bottom: 90px;
   object-fit: cover;
 
 
@@ -535,4 +536,30 @@ footer ul li a{
 
 .grey {
   background-color:#F7F7F7 ;
+}
+
+.contenedor2 {
+  display: flex;
+  margin: auto;
+  width: 90%;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.contenedor3 {
+  display: flex;
+  justify-content:right ;
+  margin: auto;
+  width: 70%;
+  padding-bottom: 30px;
+}
+
+.dv1 {
+  padding-right: 30px;
+
+}
+
+.dv2{
+  padding-left: 30px;
+
 }

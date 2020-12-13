@@ -92,7 +92,7 @@ header ul li a {
 /*     SECTION  01     */
 
 .land {
-  height: 900px;
+  height: 830px;
   background: url("../imagenes/elipse.png");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -112,8 +112,6 @@ header ul li a {
   margin-top: 70px;
   background: #FFFFFF;
   border-radius: 14px;
-
-
 }
 
 .borde1 {
@@ -260,6 +258,7 @@ h2 {
   align-items: center;
   justify-content: center;
 }
+
 
 
 /*     FOOTER        */

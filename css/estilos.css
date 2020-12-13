@@ -44,7 +44,7 @@ nav {
 
 h1 {
   font-family: Helvetica LT;
-  font-size: 4rem;
+  font-size: 4.5rem;
   font-style: normal;
   font-weight: 700;
   line-height: 4.8rem;
@@ -56,6 +56,13 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+}
+
+.flex2 {
+  display: flex;
+  flex-direction: row;
+  
 
 }
 
@@ -82,10 +89,10 @@ header ul li a {
 }
 
 
-/*     SECTION       */
+/*     SECTION  01     */
 
 .land {
-  height: 1800px;
+  height: 900px;
   background: url("../imagenes/elipse.png");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -100,7 +107,7 @@ header ul li a {
 
 .rect {
   position: absolute;
-  width: 70%;
+  width: 65%;
   height: 700px;
   margin-top: 70px;
   background: #FFFFFF;
@@ -161,16 +168,18 @@ h2 {
   font-weight: 700;
   line-height: 42px;
   letter-spacing: -0.015em;
-  text-align: left;
+
 
 }
+
+
 
 .punteada {
   width: 20%;
 }
 
 .tres_items {
-  padding-right: 200px;
+  padding-right: 160px;
   text-align:left ;
 }
 
@@ -186,6 +195,72 @@ h2 {
   padding-top: 108px;
 
 }
+
+/*     SECTION  02     */
+
+.cursos {
+  background: #F7F7F7;
+  height: 808px;
+ 
+}
+
+.contenedor {
+  width: 46%;
+  margin: auto;
+  
+}
+
+.flex-colum {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  align-content: center;
+  justify-content: left;
+  padding-left: 30px;
+  align-items: center;
+}
+
+.tarjeta {
+  background: #FFFFFF;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-radius: 24px;
+  margin-top: 40px;
+
+}
+
+.descripcion_curso {
+  padding-left: 30px;
+}
+
+.link_prog {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  /* identical to box height */
+
+  text-decoration-line: underline;
+
+  color: #267DB1;
+
+}
+
+.pCurso {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.7rem;
+  line-height: 28px;
+  /* Gris oscuro */
+  color: #767676;
+}
+
+.titulo {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
 
 /*     FOOTER        */
 

@@ -18,6 +18,11 @@ li {
     list-style: none;
   }
 
+nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .header_img {
   background: url("http://placehold.it/1920x500");
   background-size: cover;
@@ -55,12 +60,13 @@ header ul {
 header ul li {
     margin-right: 30px;
     font-weight: 900;
-    font size: 1rem;
+   
 }
 
 header ul li a {
   text-decoration: none;
   color: #27aefd;
+  font-size: 1.3rem;
 }
 
 .logo {

@@ -91,8 +91,67 @@ header ul li a {
   background-repeat: no-repeat;
   background-position: top;
   width: 100%;
+  display: flex;
+  justify-content: center;
+
   /*height: 400px;
   object-fit: contain;*/
+}
+
+.rect {
+  position: absolute;
+  width: 70%;
+  height: 700px;
+  margin-top: 70px;
+  background: #FFFFFF;
+  border-radius: 14px;
+
+
+}
+
+.borde1 {
+  height: 60px;
+  width: 2px;
+  margin-left: 88px;
+  border: 2px dashed #26ABFF;
+}
+
+.vineta1 {
+  height: 20px;
+  width: 20px;
+  margin-left: 80px;
+  border-radius: 50%;
+  background: #26ABFF;
+}
+
+.borde2 {
+  height: 150px;
+  width: 2px;
+  margin-left: 88px;
+  border: 2px dashed #26ABFF;
+}
+
+.vineta2 {
+  height: 20px;
+  width: 20px;
+  margin-left: 80px;
+  border-radius: 50%;
+  background: #26ABFF;
+}
+
+.borde3 {
+  height: 150px;
+  width: 2px;
+  margin-left: 88px;
+  border: 2px dashed #26ABFF;
+}
+
+.vineta3 {
+  height: 20px;
+  width: 20px;
+  margin-left: 80px;
+  border-radius: 50%;
+  background: #26ABFF;
 }
 
 /*     FOOTER        */

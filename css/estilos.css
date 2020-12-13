@@ -28,7 +28,15 @@ li {
 }
 
 .bajada {
-    height: 500px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-left: 40px;
+}
+
+h1 {
+  font-size: 4rem;
 }
 
 .flex {
@@ -46,10 +54,8 @@ header ul {
 
 header ul li {
     margin-right: 30px;
-    
     font-weight: 900;
-    font size: 05rem;
-    
+    font size: 1rem;
 }
 
 header ul li a {
